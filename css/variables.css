@@ -1,0 +1,25 @@
+/* Variables */
+
+:root {
+    --text-color-main-text: #2E363E;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --text-color-gray: #7E868E;
+    --text-color-gray-price: #434B53;
+
+    --bg-color-yellow: #FFB600;
+    --bg-color-blue: #0776A0;
+    --bg-color-dark-blue: #024C68;
+
+    --font-family-main: 'Lato', sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    --font-size-21: 21px;
+    --font-size-24: 24px;
+    --font-size-28: 28px;
+    --font-size-h4: 32px;
+    --font-size-h3: 36px;
+    --font-size-h2: 48px;
+    --font-size-h1: 58px;
+}
