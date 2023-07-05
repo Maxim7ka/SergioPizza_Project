@@ -16,7 +16,7 @@
     <!-- Модальное окно -->
     <section class="modal-window" id="modalWindow">
         <div class="modal-content" id="modalContent">
-            <div class="modal-header">
+            <div class="modal-header standart-flex-container">
                 <h2>Написать отзыв</h2>
                 <div class="modal-close" id="modalClose">
                     <img src="/img/cross.svg" alt="cross">
@@ -24,12 +24,12 @@
             </div>
             <div class="modal-main">
                 <form action="">
-                    <input type="text" name="userName" id="userName">
-                    <textarea name="review" id="review" cols="30" rows="10"></textarea>
-                    <input type="submit" value="Отправит отзыв">
+                    <input type="text" name="userName" id="userNameForm" placeholder="Ваше имя">
+                    <textarea name="review" id="review" cols="30" rows="10" placeholder="Отзыв"></textarea>
+                    <input type="submit" value="Отправить отзыв">
                     <div class="approval-block">
                         <input type="checkbox" name="approval" id="approvalForm">
-                        <label for="approvalForm">Соглашаюсь с <a href="#">условиями передачи данных</a></label>
+                        <label for="approvalForm">Соглашаюсь с <a href="#" class="approval-text">условиями передачи данных</a></label>
                     </div>
                 </form>
             </div>
@@ -218,6 +218,7 @@
     </footer>
 
     <script src="js/basketBuy.js"></script>
+    <script src="/js/modalWindow.js"></script>
 </body>
 
 </html>
