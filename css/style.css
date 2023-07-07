@@ -239,6 +239,131 @@ header {
     line-height: 150%;
 }
 
+/* Секция reviews */
+
+.reviews {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.blocks__reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+/* Код для слайдера */
+
+.block-slider {
+    border-radius: 5px;
+    border: 2px solid var(--bg-color-yellow);
+    background-color: var(--color-white);
+    box-shadow: 2px 8px 16px 0px rgba(194, 198, 208, 0.06);
+    padding: 70px 0px;
+}
+
+.slider-wrapper {
+    width: 76.06%;
+    margin: 0 auto;
+}
+
+.flex-container__block-slider {
+    display: flex;
+    gap: 55px;
+}
+
+.text-slider {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.text-slider img {
+    width: 40px;
+    height: 40px;
+}
+
+.text-slider h4 {
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-weight-bold);
+    line-height: 143%;
+}
+
+.text-slider p {
+    font-size: var(--font-size-21);
+    line-height: 170%;
+}
+
+.text-slider blockquote:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.img-slider {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.img-slider img {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    border: 2px solid var(--bg-color-yellow);
+}
+
+.text__img-slider p:first-child {
+    font-size: var(--font-size-28);
+    line-height: 143%;
+    margin-bottom: 6px;
+}
+
+.text__img-slider p:last-child {
+    color: var(--text-color-gray);
+    font-size: 24px;
+    line-height: 170%;
+}
+
+/* Кнопки слайдера */
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    gap: 23.86px;
+}
+
+.btn-wrapper button {
+    width: 66px;
+    height: 66px;
+    background-color: var(--color-white);
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.btn-wrapper button:first-child {
+    background-image: url(../img/icon-arrow-left.svg);
+}
+
+.btn-wrapper button:first-child:hover {
+    background-image: url(../img/icon-arrow-left-yellow.svg);
+}
+
+.btn-wrapper button:last-child {
+    background-image: url(../img/icon-arrow-right.svg);
+}
+
+.btn-wrapper button:last-child:hover {
+    background-image: url(../img/icon-arrow-right-yellow.svg);
+}
+
 /* Секция set-reviews */
 
 .set-reviews {
