@@ -116,3 +116,16 @@ input[type="checkbox"] {
 .approval-text {
     text-decoration: underline;
 }
+
+@media (max-width: 1280px) {
+    .modal-content {
+        width: 90%;
+    }
+}
+
+@media (max-width: 575px) {
+    .modal-content {
+        width: 100%;
+        padding: 50px 30px;
+    }
+}

@@ -439,6 +439,7 @@ header {
     border-radius: 10px;
     border: 5px dashed var(--bg-color-blue);
     transition: .3s;
+    order: 1;
 }
 
 .flex-item-map__contacts:hover {
@@ -455,6 +456,7 @@ header {
     flex-direction: column;
     gap: 35px;
     width: 49.23%;
+    order: 2;
 }
 
 .flex-item-text__contacts h2 {
@@ -535,4 +537,67 @@ header {
 
 .icon-instagram:hover {
     background-image: url(../img/icon-instagram-yellow.svg);
+}
+
+@media (max-width: 1280px) {
+    .wrapper {
+        width: 90.43%;
+    }
+
+    .heading-content {
+        background-position: right center;
+    }
+
+
+}
+
+@media (max-width: 575px) {
+    .wrapper {
+        width: 90.43%;
+    }
+
+    .standart-flex-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .info__heading {
+        display: none;
+    }
+
+    .blocks__heading {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .heading-content {
+        background-position: center;
+        text-align: center;
+    }
+
+    .blocks__heading-content {
+        margin-left: 0;
+    }
+
+    .flex-item__flex-container {
+        width: 73.08%;
+    }
+
+    .flex-item__about-us {
+        width: 63.08%;
+    }
+
+    .flex-item-img__set-reviews {
+        display: none;
+    }
+
+    .flex-item-map__contacts{
+        order: 2;
+    }
+
+    .flex-item-text__contacts {
+        order: 1;
+    }
 }
