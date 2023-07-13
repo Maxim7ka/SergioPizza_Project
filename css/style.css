@@ -562,6 +562,15 @@ header {
         gap: 30px;
     }
 
+    .universal-h2 {
+        font-size: var(--font-size-h3);
+    }
+
+    .heading {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
     .info__heading {
         display: none;
     }
@@ -573,12 +582,21 @@ header {
     }
 
     .heading-content {
+        padding-top: 38px;
+        padding-bottom: 68px;
         background-position: center;
         text-align: center;
     }
 
     .blocks__heading-content {
         margin-left: 0;
+    }
+
+    .pizza,
+    .about-us,
+    .reviews {
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
 
     .flex-item__flex-container {
@@ -589,15 +607,50 @@ header {
         width: 63.08%;
     }
 
+    .set-reviews {
+        padding-top: 90px;
+        padding-bottom: 87px;
+    }
+
+    .flex-item-text__set-reviews {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-item-text__set-reviews h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .list-reasons {
+        width: 85.96%;
+    }
+
     .flex-item-img__set-reviews {
         display: none;
     }
 
-    .flex-item-map__contacts{
+    .contacts {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    .flex-item-map__contacts {
         order: 2;
     }
 
     .flex-item-text__contacts {
         order: 1;
+    }
+
+    .info-footer {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+
+    .block-social-icon {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
