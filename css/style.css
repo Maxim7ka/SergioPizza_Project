@@ -564,6 +564,7 @@ header {
 
     .universal-h2 {
         font-size: var(--font-size-h3);
+        text-align: center;
     }
 
     .heading {
@@ -607,6 +608,33 @@ header {
         width: 63.08%;
     }
 
+    .blocks__reviews {
+        gap: 70px;
+    }
+
+    .slider-wrapper {
+        width: 88.46%;
+        margin: 0 auto;
+    }
+
+    .flex-container__block-slider {
+        display: flex;
+        flex-direction: column;
+        gap: 54px;
+    }
+
+    .text-slider h4 {
+        font-size: var(--font-size-28);
+    }
+
+    .text-slider blockquote:last-child {
+        width: 94.3%;
+    }
+
+    .btn-wrapper {
+        padding-top: 50px;
+    }
+
     .set-reviews {
         padding-top: 90px;
         padding-bottom: 87px;
@@ -638,10 +666,21 @@ header {
 
     .flex-item-map__contacts {
         order: 2;
+        width: 100%;
+        height: 608px;
     }
 
     .flex-item-text__contacts {
         order: 1;
+        text-align: center;
+        width: 100%;
+        gap: 50px;
+        padding-bottom: 20px;
+    }
+
+
+    .flex-item-text__contacts h2 {
+        text-align: center;
     }
 
     .info-footer {
