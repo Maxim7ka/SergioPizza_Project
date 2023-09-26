@@ -1,2 +1,2 @@
 # SergioPizza_Project
-Second project
+Second Web-developer course project
